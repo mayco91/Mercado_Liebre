@@ -1,0 +1,97 @@
+.home__header{
+    background-color: var(--Amarillo);
+}
+
+.home__logo{
+    width: 40%;   
+    display: block;
+    margin: 50px 0px 20px 40px
+}
+
+.home__section span{
+    color: gray;
+    border:2px solid gray;
+    background-color: white;
+    margin-left: 25px;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.fa-magnifying-glass{
+    border:2px solid gray;
+    background-color: white;
+    margin-left: 25px;
+    height: 25px;
+    margin-top: 3px;
+    }
+
+    .fa-hand-holding-dollar #home__compra{
+   font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+   display: inline;
+}
+
+.home__div{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+ul{
+    font-size: 18px;
+    text-align: left;
+}
+
+#home__hamburguer{
+    color: white;
+    border-radius: 20% solid blue;
+    background-color: blue;
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 45% 70px 45%;
+}
+
+.home__articulos h3{
+    font-size: 24px;
+}
+
+.home__articulos p{
+    font-size: 18px;
+}
+
+.home__articulos d{
+    font-size: 16px;
+}
+
+.home__articulos h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.home__footer{
+    background-color: white;
+    text-align: center;
+    
+}
+
+.home__footer h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home__footer p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.home__footer .fa-solid{
+    color: var(--Celeste);
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.home__footer section{
+    margin-bottom: 90px;
+}

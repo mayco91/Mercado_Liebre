@@ -5,57 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
     <script src="https://kit.fontawesome.com/23bf6444a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
-        <section>
-            <img src="/images/logo-mercado-liebre.svg" alt="Logo" width="100%">
-           <i class="fa-solid fa-magnifying-glass"> <h4>aca va la barra de busqueda</h4></i>
-           <div>
-            <i class="fa-solid fa-hand-holding-dollar"></i>
-            <h5>Comprá en cuotas y sin tarjeta de crédito</h5>
+    <header class="home__header">
+        <section class="home__section">
+            
+            <img class="home__logo" src="/images/logo-mercado-liebre.svg" alt="Logo" width="100%">
+            
+            <span>Buscar productos, marcas</span> <br>
+            <i class="fa-solid fa-magnifying-glass"> </i>
+           
+            <div class="home__div">
+            <i class="fa-solid fa-hand-holding-dollar"> <div id="home__compra">Comprá en cuotas y sin tarjeta de crédito</div> </i>
+            
            </div>
-           <nav>
-            <i class="fa-solid fa-bars"></i>
+           
+           <nav class="home__navbar">
             <ul>
                 <li><a href=""></a>Ofertas</li>
                 <li><a href=""></a>Tiendas Oficiales</li>
                 <li><a href=""></a>Vender</li>
                 <li><a href=""></a>Ayuda</li>
-                <br>
-                <li><a href=""></a>Crea tu cuenta</li>
-                <li><a href=""></a>Ingresá</li>
-                <li><a href=""></a>Mis compras</li>
+            </ul>
+            </nav>
+            <nav class="home__navbar__icon">
+                <ul>  
+                <li><a href=""></a>Crea tu cuenta <i class="fa-regular fa-id-card"></i></li>
+                <li><a href=""></a>Ingresá <i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href=""></a>Mis compras <i class="fa-solid fa-basket-shopping"></i></li>
              </ul>
            </nav>
             </section>
+            <div id="home__hamburguer">
+                <i class="fas fa-bars"></i>
+            </div>
     </header>
+    
     <img src="/images/img-home-banner.jpg" alt="Banner Home" width="100%">
-    <main>
+    <main class="home__articulos">
         <section>
             <h3> Basado en tu última visita</h3>
             <article>
                 <img src="/images/img-cafetera-moulinex.jpg" alt="Imagen Cafetera" width="100%">
                 <p>$6.770</p> 
-                <p>40% OFF</p>
+                <d>40% OFF</d>
                 <h4>Cafetera Moulinex</h4>
             </article>
             <article>
                 <img src="/images/img-macbook-pro-2019.jpg" alt="Imagen macbook" width="100%">
                 <p>$230.000</p> 
-                <p>20% off</p>
+                <d>20% off</d>
                 <h4>MacBook Pro 2019</h4>
             </article>
             <article>
                 <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy s10" width="100%">
                 <p>$70.500</p> 
-                <p>10% off</p>
+                <d>10% off</d>
                 <h4>Samsung Galaxy S10</h4>
             </article>
             <article>
                 <img src="/images/img-tv-samsung-smart.jpg" alt="Smart tv samsung" width="100%">
                 <p>$23.200</p> 
-                <p>5% off</p>
+                <d>5% off</d>
                 <h4>SmartTv Samsung 43"</h4>
             </article>
         </section>
@@ -64,47 +76,56 @@
             <article>
                 <img src="/images/img-cafetera-moulinex.jpg" alt="Imagen Cafetera" width="100%">
                 <p>$6.770</p> 
-                <p>40% OFF</p>
+                <d>40% OFF</d>
                 <h4>Cafetera Moulinex</h4>
             </article>
             <article>
                 <img src="/images/img-macbook-pro-2019.jpg" alt="Imagen macbook" width="100%">
                 <p>$230.000</p> 
-                <p>20% off</p>
+                <d>20% off</d>
                 <h4>MacBook Pro 2019</h4>
             </article>
             <article>
                 <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy s10" width="100%">
                 <p>$70.500</p> 
-                <p>10% off</p>
+                <d>10% off</d>
                 <h4>Samsung Galaxy S10</h4>
             </article>
             <article>
                 <img src="/images/img-tv-samsung-smart.jpg" alt="Smart tv samsung" width="100%">
                 <p>$23.200</p> 
-                <p>5% off</p>
+                <d>5% off</d>
                 <h4>SmartTv Samsung 43"</h4>
             </article>
         </section>
     </main>
-    <footer>
+    <footer class="home__footer">
         <section>
+            <div id="home__tarjeta">
+                <i class="fa-solid fa-credit-card"></i>
+            </div>
             <h3>Pagá con tarjeta o en efectivo</h3>
             <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                 puntos de pago. ¡Y siempre es seguro!</p>
         </section>
-        <section>
+        <section >
+            <div>
+                <i class="fa-solid fa-gift"></i>
+            </div>
             <h3>Envío gratis desde $ 2.500</h3>
             <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos.</p>
         </section>
-        <section>
+        <section >
+            <div>
+                <i class="fa-solid fa-user-shield"></i>
+            </div>
             <h3>Seguridad, de principio a fin</h3>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>
         </section>
         <section>
-            <h5>Copyright © 1999-2020 MercadoLiebre S.R.L.</h5>
+            <h3>Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
         </section>
     </footer>
 </body>
