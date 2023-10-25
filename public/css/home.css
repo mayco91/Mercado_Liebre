@@ -1,6 +1,7 @@
 .home__header{
     background-color: var(--Amarillo);
-    padding: 5%;
+    padding: 2%;
+
 }
 
 .home__body{
@@ -9,10 +10,13 @@
 }
 
 .home__logo{
-    width: 60%;   
+    width: 40%;   
     display: block;
      
 }
+
+
+
 
 .fa-magnifying-glass{
     border:2px solid gray;
@@ -31,7 +35,7 @@
 
 .home__div{
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 30px 0px;
     
 }
 
@@ -47,7 +51,7 @@ ul{
 #home__hamburguer{
     background-color: var(--Azul);
     color: white;
-    max-width: 50px;
+    width: 50px;
     padding: 15px 0;
     border-radius: 8px;
     text-align: center;
@@ -57,26 +61,47 @@ ul{
 
 }
 
+.home__articulos div{
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.home__articulos article{
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+
 .home__articulos h3{
     font-size: 24px;
 }
 
 .home__articulos p{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 550;
 }
 
 .home__articulos d{
     font-size: 16px;
+    color: var(--Verde);
 }
 
+.home__articulos i{
+    color: var(--Verde);
+    border: 1px solid var(--Verde);
+    border-radius: 50%;
+    padding: 2% 8% 8% 2%;
+}
 .home__articulos h4{
     font-size: 16px;
     font-weight: bold;
+    display: none;
 }
 
 footer{
     background-color: white;
     text-align: center;
+   margin-top: 10px;
     
 }
 
@@ -98,4 +123,77 @@ footer .fa-solid{
 
 footer section{
     margin-bottom: 90px;
+}
+
+/* Tablet */
+
+@media(min-width: 768px){
+    .home__section{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+.home__logo{
+    width: 35%;
+}
+
+.home__div{
+    width: 30%;
+    align-self: center;
+    width: 90%;
+}
+
+form{
+    width: 30%;
+    align-self: flex-start;
+    margin-top: 10px;
+    
+}
+
+#home__hamburguer{
+    display: none;
+}
+
+.home__nav__general{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+    
+}
+
+.home__nav__general ul{
+    
+    font-size: 16px;
+    
+}
+
+.home__nav__general li{
+    margin: 5px 0
+}
+
+.home__articulos h4{
+    display: block;
+}
+
+    }
+
+/* Desktop */
+
+@media(min-width: 1024px){
+    .home__section,.home__nav__general{
+        max-width: 1024px;
+        
+        margin: auto;
+    }
+    .home__nav__general li{
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+
+    
 }
