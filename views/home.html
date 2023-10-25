@@ -6,22 +6,26 @@
     <title>Mercado Liebre</title>
     <script src="https://kit.fontawesome.com/23bf6444a3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
+    
 </head>
-<body>
+<body class="home__body">
     <header class="home__header">
         <section class="home__section">
             
             <img class="home__logo" src="/images/logo-mercado-liebre.svg" alt="Logo" width="100%">
             
-            <span>Buscar productos, marcas</span> <br>
-            <i class="fa-solid fa-magnifying-glass"> </i>
+            <form action="">
+                <input type="text" placeholder="Buscar" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
            
             <div class="home__div">
             <i class="fa-solid fa-hand-holding-dollar"> <div id="home__compra">Comprá en cuotas y sin tarjeta de crédito</div> </i>
             
            </div>
            
-           <nav class="home__navbar">
+           <section class="home__nav__general">
+            <nav class="home__navbar">
             <ul>
                 <li><a href=""></a>Ofertas</li>
                 <li><a href=""></a>Tiendas Oficiales</li>
@@ -36,6 +40,7 @@
                 <li><a href=""></a>Mis compras <i class="fa-solid fa-basket-shopping"></i></li>
              </ul>
            </nav>
+        </section>
             </section>
             <div id="home__hamburguer">
                 <i class="fas fa-bars"></i>
@@ -99,7 +104,7 @@
             </article>
         </section>
     </main>
-    <footer class="home__footer">
+    <footer>
         <section>
             <div id="home__tarjeta">
                 <i class="fa-solid fa-credit-card"></i>

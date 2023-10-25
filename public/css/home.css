@@ -1,20 +1,17 @@
 .home__header{
     background-color: var(--Amarillo);
+    padding: 5%;
+}
+
+.home__body{
+    background-color: var(--Gris-claro);
+    
 }
 
 .home__logo{
-    width: 40%;   
+    width: 60%;   
     display: block;
-    margin: 50px 0px 20px 40px
-}
-
-.home__section span{
-    color: gray;
-    border:2px solid gray;
-    background-color: white;
-    margin-left: 25px;
-    font-size: 25px;
-    padding-right: 20px;
+     
 }
 
 .fa-magnifying-glass{
@@ -43,6 +40,10 @@ ul{
     text-align: left;
 }
 
+.home__nav__general{
+    display: none;
+}
+
 #home__hamburguer{
     background-color: var(--Azul);
     color: white;
@@ -52,6 +53,7 @@ ul{
     text-align: center;
     font-size: 18px;
     margin: auto;
+    
 
 }
 
@@ -72,28 +74,28 @@ ul{
     font-weight: bold;
 }
 
-.home__footer{
+footer{
     background-color: white;
     text-align: center;
     
 }
 
-.home__footer h3{
+footer h3{
     font-size: 20px;
     font-weight: bold;
 }
 
-.home__footer p{
+footer p{
     font-size: 12px;
     font-weight: lighter;
 }
 
-.home__footer .fa-solid{
+footer .fa-solid{
     color: var(--Celeste);
     margin-bottom: 10px;
     font-size: 2em;
 }
 
-.home__footer section{
+footer section{
     margin-bottom: 90px;
 }
