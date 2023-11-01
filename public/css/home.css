@@ -81,12 +81,12 @@ ul{
     font-weight: 550;
 }
 
-.home__articulos d{
+.article__descuento{
     font-size: 16px;
     color: var(--Verde);
 }
 
-.home__articulos i{
+.home__articulos div i{
     color: var(--Verde);
     border: 1px solid var(--Verde);
     border-radius: 50%;
