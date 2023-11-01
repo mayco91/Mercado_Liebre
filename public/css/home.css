@@ -4,15 +4,26 @@
 
 }
 
+.home__header__mobile{
+    display: flex;
+}
+
 .home__body{
     background-color: var(--Gris-claro);
     
 }
 
 .home__logo{
-    width: 40%;   
+    width: 50%;   
     display: block;
      
+}
+
+form input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px
 }
 
 
@@ -28,12 +39,12 @@
 
     .fa-hand-holding-dollar #home__compra{
    font-family: Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: lighter;
    display: inline;
 }
 
-.home__div{
+.home__header__div{
     text-align: center;
     margin: 20px 0px 30px 0px;
     
@@ -61,36 +72,62 @@ ul{
 
 }
 
-.home__articulos div{
+.home__articulos__detalles{
     background-color: white;
     border-top: 1px solid #ebebeb;
     padding: 15px;
-}
+    position: relative;
+    display: flex;
 
-.home__articulos article{
-    margin-top: 10px;
     
 }
+
+.home__articulos__nombre{
+    background-color: white;
+    
+    
+}
+
+
+
+
 
 .home__articulos h3{
     font-size: 24px;
 }
 
-.home__articulos p{
-    font-size: 20px;
+.article__precio{
+    font-size: 18px;
     font-weight: 550;
+    width: 30%;
 }
 
 .article__descuento{
     font-size: 16px;
     color: var(--Verde);
+    width: 70%;
+    align-self: flex-start;
+    margin-left: 10px;
+   
+}
+
+.home__articulos section .home__main__article__dos,.home__main__article__tres,.home__main__article__cuatro{
+    display: none;
 }
 
 .home__articulos div i{
-    color: var(--Verde);
-    border: 1px solid var(--Verde);
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
     border-radius: 50%;
-    padding: 2% 8% 8% 2%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 .home__articulos h4{
     font-size: 16px;
@@ -113,6 +150,7 @@ footer h3{
 footer p{
     font-size: 12px;
     font-weight: lighter;
+    text-align: center;
 }
 
 footer .fa-solid{
@@ -131,25 +169,30 @@ footer section{
     .home__section{
         
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+       justify-content: space-between;
+       
     }
 
 
 .home__logo{
-    width: 35%;
+    width: 30%;
 }
 
 .home__div{
-    width: 30%;
+    width: 70%;
     align-self: center;
-    width: 90%;
+   }
+
+.home__div #home__compra{
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 form{
     width: 30%;
     align-self: flex-start;
     margin-top: 10px;
+    margin-left: 30px;
     
 }
 
@@ -160,7 +203,6 @@ form{
 .home__nav__general{
     
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     margin-top: 3%;
     
@@ -169,11 +211,12 @@ form{
 .home__nav__general ul{
     
     font-size: 16px;
+    display: flex;
     
 }
 
 .home__nav__general li{
-    margin: 5px 0
+    margin: 5px 10px
 }
 
 .home__articulos article{
@@ -183,8 +226,19 @@ form{
 
 .home__articulos h4{
     display: block;
+    
 }
 
+.home__articulos section{
+    display: flex;
+    
+}
+
+
+.home__articulos section .home__main__article__dos{
+    display: block;
+    margin: 0px 0px 0px 50px;
+}
     }
 
 /* Desktop */
@@ -200,5 +254,19 @@ form{
         font-size: 18px;
     }
 
+    .home__articulos section .home__main__article__tres,.home__main__article__cuatro{
+        display: block;
+        margin: 0px 0px 0px 50px;
+    }
     
+.home__articulos{
+    width: 100%;
+   
+    
+}    
+
+.home__articulos section {
+    display: flex;
+    justify-content: space-around;
+}
 }
