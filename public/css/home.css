@@ -88,10 +88,6 @@ ul{
     
 }
 
-
-
-
-
 .home__articulos h3{
     font-size: 24px;
 }
@@ -100,14 +96,15 @@ ul{
     font-size: 18px;
     font-weight: 550;
     width: 30%;
+    margin:0 auto
 }
 
 .article__descuento{
     font-size: 16px;
     color: var(--Verde);
     width: 70%;
-    align-self: flex-start;
-    margin-left: 10px;
+    text-align: left;
+    margin: 0 auto
    
 }
 
@@ -246,12 +243,26 @@ form{
 @media(min-width: 1024px){
     .home__section,.home__nav__general{
         max-width: 1024px;
-        
-        margin: auto;
+        display: flex;
+        }
+    
+    .home__nav__general{
+        margin-top: 15px;
     }
-    .home__nav__general li{
+        .home__nav__general li{
         margin: 5px 10px;
         font-size: 18px;
+    }
+
+    form{
+        width: 30%;
+        margin-left: 190px;
+        
+
+    }
+
+    form input{
+        padding: 20px 15px;
     }
 
     .home__articulos section .home__main__article__tres,.home__main__article__cuatro{
@@ -260,7 +271,8 @@ form{
     }
     
 .home__articulos{
-    width: 100%;
+    width: 90%
+    margin: 0 auto
    
     
 }    
@@ -269,4 +281,11 @@ form{
     display: flex;
     justify-content: space-around;
 }
+
+.article__descuento{
+    margin-left: 30px;
+    text-align: right;
+}
+
+
 }
