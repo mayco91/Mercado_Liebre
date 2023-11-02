@@ -1,0 +1,27 @@
+footer{
+    background-color: white;
+    text-align: center;
+   margin-top: 10px;
+    
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+footer .fa-solid{
+    color: var(--Celeste);
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+footer p{
+    margin-bottom: 20px;
+}
