@@ -9,6 +9,12 @@
     padding: 15px;
     position: relative;
     display: flex;
+    
+    
+}
+
+.home__articulos article{
+    margin-bottom: 5%;
 }
 
 .home__articulos__nombre {
@@ -36,11 +42,6 @@
     margin: 0 auto;
 }
 
-.home__articulos section .home__main__article__dos,
-.home__main__article__tres,
-.home__main__article__cuatro {
-    display: none;
-}
 
 .home__articulos div i {
     display: block;
@@ -61,6 +62,7 @@
     font-size: 16px;
     font-weight: bold;
     display: none;
+    padding: 10px;
 }
 
 /* Tablet */
@@ -69,20 +71,27 @@
     .home__articulos article {
 
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display:flex;
+        flex-direction: column;        
+        width: 45%;
+        padding: auto;
     }
 
     .home__articulos h4 {
         display: block;
     }
+.articulos__fila-uno, .articulos__fila-dos{
+    display: flex;
+    justify-content: space-around;
+}
 
-    .home__articulos section {
-        display: flex;
-    }
 
-    .home__articulos section .home__main__article__dos {
-        display: block;
-        margin: 0px 0px 0px 50px;
-    }
+   
+    
+
+
+    
+    
 }
 
 /* Desktop */

@@ -63,7 +63,7 @@ ul {
 
 
     .home__logo {
-        width: 30%;
+        width: 90%;
     }
 
     .home__div {
@@ -77,10 +77,11 @@ ul {
     }
 
     form {
-        width: 35%;
+        width: 100%;
         align-self: center;
         margin-top: 10px;
-        margin-left: 110px;
+        padding: 5%;
+       
     }
 
     form input{
@@ -100,7 +101,7 @@ ul {
 
     .home__nav__general ul {
 
-        font-size: 16px;
+        font-size: 14px;
         display: flex;
     }
 
@@ -117,6 +118,7 @@ ul {
     .home__nav__general {
         max-width: 1024px;
         display: flex;
+        justify-content: space-between;
     }
 
     .home__nav__general {
@@ -129,11 +131,13 @@ ul {
     }
 
     form {
-        width: 30%;
-        margin-left: 180px;
+        width: 100%;
+        padding: 5%;
     }
 
     form input {
         padding: 20px 15px;
     }
+
+    
 }
