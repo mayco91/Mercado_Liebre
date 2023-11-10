@@ -3,15 +3,7 @@
 
 }
 
-.home__articulos__detalles {
-    background-color: white;
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-    position: relative;
-    display: flex;
-    
-    
-}
+
 
 .home__articulos article{
     margin-bottom: 5%;
@@ -42,6 +34,15 @@
     margin: 0 auto;
 }
 
+.home__articulos__detalles {
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    
+    
+}
 
 .home__articulos div i {
     display: block;

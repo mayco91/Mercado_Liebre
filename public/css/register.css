@@ -1,0 +1,94 @@
+.main__section1{
+    background-color: var(--Gris-claro);
+    padding-bottom: 10px;
+
+}
+.main__section1 h1{
+    
+    padding: 10px;
+}
+.main__section1 form{
+    
+    margin: 20px;
+    padding: 10px;
+}
+
+.main__section__form--label1{
+    display: block;
+    /* flex-direction:column; */
+    margin: 10px;
+    padding: 10px;
+}
+.main__section__form__div input{
+    border-radius: 16px;
+
+
+}
+    
+
+.main__section__form__input{
+    border-radius: 5px;
+    border: solid 1px var(--Celeste);
+    padding: 10px;
+}
+.main__section__div{
+    text-align: left;
+    margin-left: 10px;
+}
+.main__section__div p{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.input__label{
+    display: flex;
+    align-self: center;
+    
+}
+
+.main__section__div__article p{
+    padding-top: 20px
+}
+.main__section__div__article input{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    
+}
+.main__section__div__article label{
+    display: inline-block;
+   
+    margin: 30px 10px 10px;
+    position: relative;
+    bottom: 27px;
+    left: 10px;
+}
+.main__section__div__input--usuario{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.div__buttons1{
+    background-color: var(--Gris-claro);
+}
+button{
+    margin: 15px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: var(--Celeste);
+
+}
+/* TABLETS */
+@media (min-width: 768px){
+    .main__section__div p{
+        text-align: center;
+    }
+
+}
+/* DESKTOP */
+@media (min-width: 1024px){
+    .main__section__div p{
+        text-align: center;
+    }
+
+}

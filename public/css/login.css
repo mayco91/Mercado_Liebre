@@ -1,0 +1,29 @@
+.main__section{
+    background-color: var(--Gris-claro);
+    
+}
+
+.main__section h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main__section form{
+    display: flex;
+    flex-direction: column;
+}
+.main__section__form--label{
+    padding: 10px;
+    margin: 10px;
+}
+.main__section__form__input{
+    border-radius: 5px;
+    border: solid 1px var(--Celeste);
+    padding: 10px;
+    
+}
+.div__button{
+    background-color: var(--Gris-claro);
+    padding-bottom: 100px;
+
+}
