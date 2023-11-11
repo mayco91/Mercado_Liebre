@@ -99,6 +99,7 @@
 
 @media(min-width: 1024px) {
 
+
     .home__articulos section .home__main__article__tres,
     .home__main__article__cuatro {
         display: block;
@@ -119,4 +120,6 @@
         margin-left: 30px;
         
     }
+
+    
 }
