@@ -27,3 +27,16 @@
     padding-bottom: 100px;
 
 }
+
+.div__button button{
+    margin: 15px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: var(--Gris-oscuro);
+    transition: background-color 3s;
+}
+
+.div__button button:hover{
+    background-color: #0022AA;
+}

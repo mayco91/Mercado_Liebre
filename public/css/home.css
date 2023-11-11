@@ -7,7 +7,12 @@
 
 .home__articulos article{
     margin-bottom: 5%;
+    transition: box-shadow 3s;
+    
+
 }
+
+
 
 .home__articulos__nombre {
     background-color: white;
@@ -57,6 +62,7 @@
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: transform 2s;
 }
 
 .home__articulos h4 {
@@ -64,6 +70,20 @@
     font-weight: bold;
     display: none;
     padding: 10px;
+    transition: display 2s;
+    
+}
+
+.home__articulos:hover h4{
+    display: block;
+}
+
+.home__articulos:hover article{
+    box-shadow: 0px 0px 10px black;
+}
+
+.home__articulos:hover div i{
+    transform: rotate(-90deg)
 }
 
 /* Tablet */
@@ -118,8 +138,12 @@
 
     .article__descuento {
         margin-left: 30px;
-        
+     
+    }
+
     }
 
     
-}
+
+  
+
